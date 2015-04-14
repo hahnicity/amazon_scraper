@@ -46,7 +46,7 @@ Installation
 
 ::
 
-    pip install amazon_scraper
+    pip install requests python-amazon-simple-product-api beautifulsoup4 xmltodict python-dateutil amazon_scraper
 
 
 Example
