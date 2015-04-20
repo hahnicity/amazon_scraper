@@ -57,7 +57,7 @@ class AmazonTestCase(unittest.TestCase):
             k:str(v)
             for k,v in config.iteritems()
         }
-        cls.amzn = AmazonScraper(MaxQPS=0.5, **config)
+        cls.amzn = AmazonScraper(**config)
 
     def setUp(self):
         self.patcher = patch('requests.get', side_effect=get)
